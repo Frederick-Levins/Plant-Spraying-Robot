@@ -13,3 +13,6 @@ This is the code that communicates with the raspberry pi and receives coordinate
 
 sprayerG.py
 This is the code that drives the image processing of the robot. It uses opencv RGB library to create boundary boxes around green objects. It then serially communicates with the arduino and sends these coordinates separated by an X and Y. See figures One and Two. It is in python.
+
+314FinalReport.pdf
+Report for more information.
