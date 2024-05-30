@@ -69,7 +69,7 @@ def detect_green(image):
                 ser.write(send.encode('utf-8'))
                 time.sleep(0.01)
                 print(send)
-                prev_ty, prev_t = ty, tp # Update temps
+                prev_ty, prev_tp = ty, tp # Update temps
 
     return image
 while True: 
